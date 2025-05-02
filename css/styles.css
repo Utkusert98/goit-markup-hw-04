@@ -39,7 +39,7 @@ header {
 
 .logotype {
   font-family: 'Raleway', sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 700;
   left: 140px;
   position: relative;
@@ -60,12 +60,14 @@ header {
   font-family: 'Raleway', sans-serif;
   position: relative;
   right: 160px;
+  
 }
 
 .nav-link {
   color: #2e2f42;
   font-weight: 500;
   transition: color 0.3s ease;
+  font-size: 16px;
 }
 
 .nav-link:hover {
