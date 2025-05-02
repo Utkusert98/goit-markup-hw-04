@@ -39,7 +39,7 @@ header {
 
 .logotype {
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 700;
   left: 140px;
   position: relative;
@@ -114,6 +114,7 @@ header {
   font-size: 56px;
   line-height: 1.07;
   margin-bottom: 48px;
+  font-weight: 700;
 }
 
 .btn-order {
