@@ -7,7 +7,11 @@
 .container {
   margin: 0 auto;
   width: 1128px;
+  justify-content: center;
+  position: relative;
+  right: 50px;
 }
+
 
 body {
   font-family: "Roboto", sans-serif;
@@ -92,7 +96,7 @@ header .link2:hover {
   font-weight: 700;
   color: #4d5ae5;
   line-height: 21px;
-  margin-left: 156px;
+  margin-left: 15px;
 }
 .header .logo-2 {
   color: #2e2f42;
@@ -197,7 +201,7 @@ ul {
   display: flex;
   width: 1128px;
   height: 224px;
-  gap: 8px;
+  gap: 12px;
   justify-content: center;
   margin-top: 120px;
 }
@@ -232,7 +236,7 @@ ul {
   justify-content: center;
   text-align: center;
   margin: 0px;
-  gap: 74px;
+  gap: 30px;
   padding-bottom: 32px;
 }
 .team .team-title {
