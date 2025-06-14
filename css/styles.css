@@ -6,7 +6,7 @@
 
 .container {
   margin: 0 auto;
-  width: 1440px;
+  width: 1128px;
 }
 
 body {
@@ -20,7 +20,6 @@ body {
 }
 .header {
   display: flex;
-  /*justify-content: space-around;*/
   align-items: center;
   padding: 0px;
   margin: 0px;
@@ -53,20 +52,16 @@ body {
 .header .studio-underline:focus {
   color: #4d5ae5;
   text-decoration: underline;
-
 }
 .header .studio-underline::after {
   display: flex;
   content: "";
   width: 48px;
   height: 4px;
-  text-decoration: none;
   background-color: #404bbf;
   border-radius: 2px;
   bottom: -19px;
   position: relative;
-
-
 }
 
 .header .main-list {
@@ -157,8 +152,6 @@ ul {
   text-align: left;
 }
 
-
-
 .section1 {
   margin: 0px;
   padding: 0px;
@@ -173,12 +166,9 @@ ul {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
-  /*border: 5px solid red;*/
 }
 
 .title1 {
-  /* border: 5px solid red;*/
   padding: auto;
   margin: 188px 0 0 472px;
   height: 120px;
@@ -209,10 +199,7 @@ ul {
   height: 224px;
   gap: 8px;
   justify-content: center;
-  margin-left: 156px;
   margin-top: 120px;
-
-  /* border: 5px solid blue;*/
 }
 
 .services-name {
@@ -233,21 +220,19 @@ ul {
 }
 
 /*takım bölümü*/
+
 .team {
   background-color: #f4f4fd;
   margin-top: 120px;
   padding: 0px;
-  
   height: 732px;
-
-  /* border: 5px solid red;*/
 }
 .team .team-list {
   display: flex;
   justify-content: center;
   text-align: center;
   margin: 0px;
-  gap: 24px;
+  gap: 74px;
   padding-bottom: 32px;
 }
 .team .team-title {
@@ -265,14 +250,13 @@ ul {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
-  gap: 24px;
+  gap: 20px;
   width: 232px;
   height: 40px;
   padding-left: 0px;
   padding-top: 0px;
-  margin-left: 16px;
+  margin-left: 1px;
 
-  /*border: solid 1px #212121;*/
 }
 .link1 {
   background-color: #4d5ae5;
@@ -282,10 +266,7 @@ ul {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-
-  /* border: 1px solid #212121;*/
 }
-
 .icon {
   fill: #fff;
 }
@@ -306,13 +287,8 @@ ul {
 .portfolio {
   text-align: center;
   height: 1000px;
-  margin-left: 156px;
   margin-top: 120px;
   padding: 0px;
-  
-  
-
-  /*border: 5px solid red;*/
 }
 
 .portfolio .our-portfolio {
@@ -338,65 +314,50 @@ ul {
   flex-basis: calc((100% - 48px) / 3);
   position: relative;
   overflow: hidden;
-
 }
-img{
+img {
   display: block;
   max-width: 100%;
 }
-
-
-.portfolio-text{
-  color:#fff;
+.portfolio-text {
+  color: #fff;
   text-align: left;
   padding: 40px 32px;
   size: 16px;
   line-height: 24px;
-  background-color: #4d5ae5 ;
+  background-color: #4d5ae5;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateY(100%); 
+  transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .portfolio-item:hover .portfolio-text {
   transform: translateY(0);
-
-  
 }
-
 .portfolio-name {
   padding-left: 16px;
 }
-
 .portfolio-exp {
   margin-left: 16px;
 }
+
 /*footer bölümü*/
-
-
 
 .footer {
   background-color: #2e2f42;
   color: #ffffff;
   margin-top: 120px;
   height: 312px;
-  
-  
-  
-  /*border: blue solid 3px;*/
 }
-
 .footer-text {
   width: 264px;
   height: 72px;
-  margin: 16px 0 0 156px;
+  margin: 16px 0 0;
   color: #f4f4fd;
 }
-
 .footer-social-links {
   display: flex;
   justify-content: center;
@@ -408,10 +369,7 @@ img{
   padding-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-
-  /*border: solid 1px #212121;*/
 }
-
 .link3 {
   background-color: #4d5ae5;
   display: flex;
@@ -429,7 +387,6 @@ img{
 .footer-icon {
   fill: #fff;
 }
-
 .footer-text2 {
   display: flex;
   font-size: 16px;
@@ -439,19 +396,13 @@ img{
   width: 96px;
   height: 24px;
   margin: 0 0 16px 0;
-
-  /*border: #e7e9fc 1px solid;*/
 }
-
 .footer-content {
   display: block;
   width: 208px;
   height: 80px;
-  margin-left: 120px;
   margin-top: 100px;
   align-items: baseline;
-
-  /*border: #e7e9fc solid 1px;*/
 }
 .footer-list {
   display: flex;
