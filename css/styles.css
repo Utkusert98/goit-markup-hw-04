@@ -293,6 +293,7 @@ ul {
   height: 1000px;
   margin-top: 120px;
   padding: 0px;
+  
 }
 
 .portfolio .our-portfolio {
@@ -300,6 +301,7 @@ ul {
   line-height: 40px;
   margin-top: 0px;
   padding: 0px;
+  
 }
 .portfolio .portfolio-list {
   display: flex;
@@ -309,6 +311,7 @@ ul {
   margin-top: 72px;
   list-style: none;
   padding: 0px;
+  
 }
 .portfolio-item {
   border: 1px solid #e7e9fc;
@@ -323,6 +326,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
 .portfolio-text {
   color: #fff;
   text-align: left;
@@ -331,21 +335,30 @@ img {
   line-height: 24px;
   background-color: #4d5ae5;
   position: absolute;
-  top: 0;
+  top: 0 ;
   left: 0;
   width: 100%;
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 16px;
+  z-index: 1;
 }
 .portfolio-item:hover .portfolio-text {
   transform: translateY(0);
 }
 .portfolio-name {
   padding-left: 16px;
+  
 }
 .portfolio-exp {
   margin-left: 16px;
+}
+.portfolio-tag{
+  z-index: 2;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
 }
 
 /*footer bölümü*/
@@ -355,13 +368,17 @@ img {
   color: #ffffff;
   margin-top: 120px;
   height: 312px;
+
+  /*border: blue solid 3px;*/
 }
+
 .footer-text {
   width: 264px;
   height: 72px;
-  margin: 16px 0 0;
+  margin: 16px 0 0 156px;
   color: #f4f4fd;
 }
+
 .footer-social-links {
   display: flex;
   justify-content: center;
@@ -373,7 +390,10 @@ img {
   padding-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+
+  /*border: solid 1px #212121;*/
 }
+
 .link3 {
   background-color: #4d5ae5;
   display: flex;
@@ -391,6 +411,7 @@ img {
 .footer-icon {
   fill: #fff;
 }
+
 .footer-text2 {
   display: flex;
   font-size: 16px;
@@ -400,13 +421,19 @@ img {
   width: 96px;
   height: 24px;
   margin: 0 0 16px 0;
+
+  /*border: #e7e9fc 1px solid;*/
 }
+
 .footer-content {
   display: block;
   width: 208px;
   height: 80px;
+  margin-left: 120px;
   margin-top: 100px;
   align-items: baseline;
+
+  /*border: #e7e9fc solid 1px;*/
 }
 .footer-list {
   display: flex;
