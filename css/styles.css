@@ -117,6 +117,8 @@ header .link2:hover {
   line-height: 21px;
   margin-left: 156px;
   margin-top: 100px;
+  right: 150px;
+  position: relative;
 }
 
 .footer #logo-3 {
@@ -388,7 +390,7 @@ background-color: #fff;
   color: #ffffff;
   margin-top: 120px;
   height: 312px;
-
+  
   /*border: blue solid 3px;*/
 }
 
@@ -397,6 +399,8 @@ background-color: #fff;
   height: 72px;
   margin: 16px 0 0 156px;
   color: #f4f4fd;
+  right: 150px;
+  position: relative;
 }
 
 .footer-social-links {
@@ -452,7 +456,8 @@ background-color: #fff;
   margin-left: 120px;
   margin-top: 100px;
   align-items: baseline;
-
+  right: 150px;
+  position: relative;
   /*border: #e7e9fc solid 1px;*/
 }
 .footer-list {
